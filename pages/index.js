@@ -6,18 +6,18 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>俱往科技</title>
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="俱往矣!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          数风流人物，还看今朝！
         </p>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
